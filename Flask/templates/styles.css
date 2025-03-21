@@ -1,0 +1,90 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Light background color */
+    color: #343a40; /* Dark text color */
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #007bff; /* Bootstrap primary color */
+}
+
+.navbar-brand, .nav-link {
+    color: white !important; /* White text for navbar */
+}
+
+.navbar-brand:hover, .nav-link:hover {
+    color: #e2e6ea !important; /* Lighten on hover */
+}
+
+/* Container Styles */
+.container {
+    margin-top: 20px; /* Space above the container */
+}
+
+/* Form Styles */
+.form-group {
+    margin-bottom: 15px; /* Space between form groups */
+}
+
+label {
+    font-weight: bold; /* Bold labels */
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+textarea {
+    border: 1px solid #ced4da; /* Light border */
+    border-radius: 0.25rem; /* Rounded corners */
+    padding: 10px; /* Padding inside input fields */
+    width: 100%; /* Full width */
+}
+
+/* Button Styles */
+.btn {
+    border-radius: 0.25rem; /* Rounded button corners */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Primary button color */
+    border: none; /* No border */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.btn-secondary {
+    background-color: #6c757d; /* Secondary button color */
+    border: none; /* No border */
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268; /* Darker gray on hover */
+}
+
+/* Alert Styles */
+.alert {
+    border-radius: 0.25rem; /* Rounded alert corners */
+}
+
+/* Prediction Result Styles */
+h1 {
+    color: #007bff; /* Primary color for headings */
+}
+
+.prediction_text {
+    font-size: 1.2em; /* Larger font for prediction text */
+    margin: 10px 0; /* Margin above and below */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .container {
+        margin-top: 10px; /* Less margin on smaller screens */
+    }
+}
